@@ -53,6 +53,7 @@ function kadol_index() {
 /*
 	Fungsi upoad image by link
 	Panjang banget, kalo ada yang punya ide lebih simple silahkan disampaikan
+	source: http://wordpress.stackexchange.com/questions/30284/media-sideload-image-file-name
 */
 function somatic_attach_external_image( $url = null, $post_id = null, $thumb = null, $filename = null, $post_data = array() ) {
     if ( !$url || !$post_id ) return new WP_Error('missing', "Need a valid URL and post ID...");
